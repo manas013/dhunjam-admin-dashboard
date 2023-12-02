@@ -1,0 +1,136 @@
+.admin_main{
+    align-items: center;
+    margin: auto;
+  width: 100%;
+  padding: 10px;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+}
+.content-box{
+    display: flex;
+    justify-content: space-between;
+}
+.text_style{
+    align-items: center;
+    /* color: #FFFFFF; */
+    font-size: 16px;
+    font-family: popins;
+    display: flex;
+    justify-content: center;
+}
+.songChange_box{
+    color: #FFFFFF;
+    margin-top: 16px;
+    .MuiFormControl-root{
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        font-family: popins;
+        font-size: 16px;
+        color: #FFFFFF;
+        width: 605px;
+    }
+    .MuiInputLabel-root{
+        /* color: #FFFFFF;
+        margin-left: -8px;
+    margin-top: -9px; */
+    }
+    .MuiOutlinedInput-input{
+        padding: 5px 129px 5px 142px;
+    }
+    .MuiOutlinedInput-root{
+        /* color: #FFFFFF; */
+        color: black;
+        width: 300px;
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+}
+.songChange_box_2{
+    color: #FFFFFF;
+    margin-top: 16px;
+    .MuiFormControl-root{
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        font-family: popins;
+        font-size: 16px;
+        color: #FFFFFF;
+        width: 605px;
+    }
+    .MuiInputLabel-root{
+        /* color: #FFFFFF;
+        margin-left: -8px;
+    margin-top: -9px; */
+    }
+    /* .MuiOutlinedInput-input{
+        padding: 5px 129px 5px 142px;
+    } */
+    .MuiOutlinedInput-root{
+        /* color: #FFFFFF; */
+        color: black;
+        width: 70px;
+        height: 39px;
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+}
+.save{
+        width: 610px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #6741D9;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border: 1px solid #6741D9;
+        cursor: pointer;
+        margin-top: 9px;
+        color: #FFFFFF;
+        border-radius: 5px;
+    }
+    .signin:hover{
+        border: 1px solid  #F0C3F1;
+    }
+    .signin:active { 
+       border: 1px solid #F0C3F1; 
+    
+}
+.save.disabled {
+    /* Your styles for the disabled state */
+    background-color: #bdc3c7;
+    color: #7f8c8d;
+    cursor: not-allowed;
+    /* Add other styles for the disabled state as needed */
+  }
+.barchart{
+    .MuiBarElement-root{
+        fill: #F0C3F1;
+        color: #FFFFFF;
+        font-family:'popins';
+        font-size: 16px;
+
+    }
+    .MuiChartsAxis-root .MuiChartsAxis-tickLabel {
+        fill: #FFFFFF;
+        color: #FFFFFF;
+        font-family:'popins';
+        font-size: 16px;
+    }
+    .MuiChartsAxis-root .MuiChartsAxis-tick {
+        stroke: #FFFFFF;
+    shape-rendering: unset;
+    }
+    .MuiChartsAxis-root .MuiChartsAxis-line {
+        stroke: #FFFFFF;
+        shape-rendering: unset;
+        
+    }
+}
+.disabledTextField {
+    background-color: #C2C2C2;
+    /* Add any other styles you want for disabled state */
+  }

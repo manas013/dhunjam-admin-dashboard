@@ -1,0 +1,98 @@
+.login_Portal{
+    background-color: #030303;
+    /* padding: 0px 89px; */
+    align-items: center;
+    margin: auto;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+    
+    
+  }
+  #heading{
+    font-size: 32px;
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .userName{
+    color: #FFFFFF;
+    margin-top: 16px;
+    .MuiFormControl-root{
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        font-family: popins;
+        font-size: 16px;
+        color: #FFFFFF;
+        width: 605px;
+    }
+    .MuiInputLabel-root{
+        color: #FFFFFF;
+        margin-left: -8px;
+    margin-top: -9px;
+    }
+    .MuiOutlinedInput-input{
+        padding: 5px;
+    }
+    .MuiOutlinedInput-root{
+        color: #FFFFFF;
+        
+    }
+  }
+  .Password{
+    color: #FFFFFF;
+    margin-top: 16px;
+    .MuiFormControl-root{
+        border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-family: popins;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 605px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    }
+    .MuiInputLabel-root{
+        color: #FFFFFF;
+    }
+    .MuiOutlinedInput-input{
+        padding: 5px;
+    }
+    .MuiOutlinedInput-root{
+        color: #FFFFFF;
+    }
+    
+  }
+  .signin{
+    width: 610px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #6741D9;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #6741D9;
+    cursor: pointer;
+    margin-top: 9px;
+    color: #FFFFFF;
+}
+.signin:hover{
+    border: 1px solid  #F0C3F1;
+}
+.signin:active { 
+   border: 1px solid #F0C3F1; 
+} 
+.text_2{
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: popins;
+    display: flex;
+    justify-content: center;
+}
